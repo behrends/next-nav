@@ -8,6 +8,10 @@ export default function SiteHeader() {
       href: '/',
     },
     {
+      title: 'Blockpläne',
+      href: '/blockplan',
+    },
+    {
       title: 'Screen',
       href: '/screen',
     },
