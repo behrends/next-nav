@@ -12,7 +12,7 @@ In der Datei `db.json` liegen Beispiel-Daten, die durch [https://my-json-server.
 
 ## Projekt direkt in Stackblitz öffnen
 
-[![In  StackBlitz bearbeiten](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/behrends/nextjs-nav/tree/main)
+[![In  StackBlitz bearbeiten](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/behrends/next-nav/tree/main)
 
 ## Projekt auf dem eigenen Rechner verwenden
 
