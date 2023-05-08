@@ -1,24 +1,38 @@
-### TODO: add description
+Beispiel-Projekt mit [Next.js](https://nextjs.org/), das eine Navigationsleiste am oberen Bildschirmrand mit ein paar Screens implementiert.
 
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+Eingesetzte CSS- bzw. Komponenten-Bibliotheken:
 
-## Getting Started
+- [tailwindcss](https://www.tailwindcss.com)
+- [daisyUI](https://www.daisyui.com) &mdash; Erweiterung von tailwind mit CSS-Komponenten
+- [Mantine](https://mantine.dev) &mdash; Komponentensammlung für Rect
 
-First, run the development server:
+&xrarr; Dieses Projekt kann als Vorlage für prototypische Webanwendungen eingesetzt werden.
+
+In der Datei `db.json` liegen Beispiel-Daten, die durch [https://my-json-server.typicode.com](https://my-json-server.typicode.com) zu einem „Fake-REST-Server“ umgeleitet werden.
+
+## Projekt direkt in Stackblitz öffnen
+
+[![In  StackBlitz bearbeiten](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/behrends/nextjs-nav/tree/main)
+
+## Projekt auf dem eigenen Rechner verwenden
+
+Dieses GitHub-Repository klonen oder herunterladen.
+
+[NodeJS](https://nodejs.org) muss installiert sein.
+
+Im Projektverzeichnis die Abhängigkeiten mit `npm` installieren:
+
+```bash
+npm install
+```
+
+Danach den Development-Server für das Next.js-Projekt starten:
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+Die Webanwendung mit der Adresse [http://localhost:3000](http://localhost:3000) im Browser öffnen.
 
 ## Learn More
 
@@ -34,3 +48,7 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+
+You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+
+This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
