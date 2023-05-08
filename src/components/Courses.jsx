@@ -1,10 +1,10 @@
 import CourseCard from '@/components/CourseCard';
 
 async function getCourses() {
-  // fetch data from github.com/behrends/nextjs-nav-mui/db.json
+  // fetch data from github.com/behrends/nextjs-nav/db.json
   // (fake REST server, see https://my-json-server.typicode.com)
   const res = await fetch(
-    'https://my-json-server.typicode.com/behrends/nextjs-nav-mui/courses'
+    'https://my-json-server.typicode.com/behrends/nextjs-nav/courses'
   );
 
   if (!res.ok) {
