@@ -1,3 +1,5 @@
+import CourseCard from '@/components/CourseCard';
+
 async function getCourses() {
   // fetch data from github.com/behrends/nextjs-nav-mui/db.json
   // (fake REST server, see https://my-json-server.typicode.com)
@@ -22,7 +24,7 @@ export default async function Courses() {
   return (
     <>
       {courses.map((course) => (
-        <h2 key={course.id}>{course.name}</h2>
+        <CourseCard key={course.id} name={course.name} />
       ))}
     </>
   );

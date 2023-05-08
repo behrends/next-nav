@@ -12,8 +12,8 @@ export default function SiteHeader() {
       href: '/blockplan',
     },
     {
-      title: 'Screen',
-      href: '/screen',
+      title: 'Kurse',
+      href: '/courses',
     },
   ];
 
