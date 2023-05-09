@@ -3,8 +3,10 @@ Beispiel-Projekt mit [Next.js](https://nextjs.org/), das eine Navigationsleiste 
 Eingesetzte CSS- bzw. Komponenten-Bibliotheken:
 
 - [tailwindcss](https://www.tailwindcss.com)
-- [daisyUI](https://www.daisyui.com) &mdash; Erweiterung von tailwind mit CSS-Komponenten
-- [Mantine](https://mantine.dev) &mdash; Komponentensammlung für Rect
+- [daisyUI](https://www.daisyui.com) &mdash; Erweiterung von tailwind mit CSS-Komponenten (siehe z.B. die Tabelle im [Screen „Blockplan“](src/app/blockplan/page.js))
+- [Mantine](https://mantine.dev) &mdash; Komponentensammlung für React (siehe z.B. die [CourseCard-Komponente](src/components/CourseCard.jsx))
+
+Serverseitiges Data-Fetching z.B. in der [Komponente „Courses“](src/app/components/Courses.jsx)
 
 &xrarr; Dieses Projekt kann als Vorlage für prototypische Webanwendungen eingesetzt werden.
 
