@@ -6,7 +6,7 @@ Eingesetzte CSS- bzw. Komponenten-Bibliotheken:
 - [daisyUI](https://www.daisyui.com) &mdash; Erweiterung von tailwind mit CSS-Komponenten (siehe z.B. die Tabelle im [Screen „Blockplan“](src/app/blockplan/page.js))
 - [Mantine](https://mantine.dev) &mdash; Komponentensammlung für React (siehe z.B. die [CourseCard-Komponente](src/components/CourseCard.jsx))
 
-Serverseitiges Data-Fetching z.B. in der [Komponente „Courses“](src/app/components/Courses.jsx)
+Serverseitiges Data-Fetching z.B. in der [Komponente „Courses“](src/components/Courses.jsx)
 
 &xrarr; Dieses Projekt kann als Vorlage für prototypische Webanwendungen eingesetzt werden.
 
