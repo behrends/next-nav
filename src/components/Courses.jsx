@@ -1,29 +1,16 @@
+import { sql } from '@vercel/postgres';
 import CourseCard from '@/components/CourseCard';
 
-async function getCourses() {
-  // fetch data from github.com/behrends/next-nav/db.json
-  // (fake REST server, see https://my-json-server.typicode.com)
-  const res = await fetch(
-    'https://my-json-server.typicode.com/behrends/next-nav/courses'
-  );
-
-  if (!res.ok) {
-    // This will activate the closest `error.js` Error Boundary
-    throw new Error('Failed to fetch data');
-  }
-
-  return res.json();
-}
-
 export default async function Courses() {
-  const courses = await getCourses();
+  // fetch data from Postgres (using Vercel's storage)
+  const { rows } = await sql`SELECT * FROM courses`;
 
-  if (courses.length === 0)
+  if (rows.length === 0)
     return <h2 className="text-3xl">Keine Kurse</h2>;
 
   return (
     <>
-      {courses.map((course) => (
+      {rows.map((course) => (
         <CourseCard key={course.id} name={course.name} />
       ))}
     </>
