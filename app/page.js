@@ -7,7 +7,7 @@ import {
 
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between p-24">
+    <section>
       <Card>
         <CardHeader>
           <CardTitle>Next.js App</CardTitle>
@@ -19,6 +19,6 @@ export default function Home() {
           </p>
         </CardContent>
       </Card>
-    </main>
+    </section>
   );
 }
