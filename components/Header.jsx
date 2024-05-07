@@ -18,7 +18,7 @@ const appRoutes = [
   },
 ];
 
-export default function Nav() {
+export default function Header() {
   // determine the current page with hook
   const pathname = usePathname();
   return (
