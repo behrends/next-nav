@@ -1,24 +1,37 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+Beispiel-Projekt mit [Next.js](https://nextjs.org/), das eine Navigationsleiste am oberen Bildschirmrand mit ein paar Screens implementiert.
 
-## Getting Started
+&xrarr; Dieses Projekt kann als Vorlage für prototypische Webanwendungen eingesetzt werden.
 
-First, run the development server:
+Eingesetzte CSS- bzw. Komponenten-Bibliotheken:
+
+- [tailwindcss](https://www.tailwindcss.com)
+- [shadcn/ui](https://ui.shadcn.com) &mdash; Sammlung von UI-Komponenten
+
+Serverseitiges Data-Fetching ist in der [Komponente „Courses“](app/components/Courses.jsx), welche im Screen `Playground` dargestellt wird. Diese Serverkomponente simuliert das Laden von Daten von einem „Fake REST-Server“ mit Hilfe von [my-json-server.typicode.com](https://my-json-server.typicode.com). Die Daten dazu liegen in der Datei [db.json](/db.json).
+
+## Projekt direkt in Stackblitz öffnen
+
+[![In  StackBlitz bearbeiten](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/behrends/next-nav/tree/main)
+
+## Projekt auf dem eigenen Rechner verwenden
+
+Dieses GitHub-Repository klonen oder herunterladen.
+
+[NodeJS](https://nodejs.org) muss installiert sein.
+
+Im Projektverzeichnis die Abhängigkeiten mit `npm` installieren:
+
+```bash
+npm install
+```
+
+Danach den Development-Server für das Next.js-Projekt starten:
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+Die Webanwendung mit der Adresse [http://localhost:3000](http://localhost:3000) im Browser öffnen.
 
 ## Learn More
 
