@@ -7,7 +7,7 @@ Eingesetzte CSS- bzw. Komponenten-Bibliotheken:
 - [tailwindcss](https://www.tailwindcss.com)
 - [shadcn/ui](https://ui.shadcn.com) &mdash; Sammlung von UI-Komponenten
 
-Serverseitiges Data-Fetching ist in der [Komponente „Courses“](app/components/Courses.jsx), welche im Screen `Playground` dargestellt wird. Diese Serverkomponente simuliert das Laden von Daten von einem „Fake REST-Server“ mit Hilfe von [my-json-server.typicode.com](https://my-json-server.typicode.com). Die Daten dazu liegen in der Datei [db.json](/db.json).
+Serverseitiges Data-Fetching ist in der [Komponente „Courses“](components/Courses.jsx), welche im Screen `Playground` dargestellt wird. Diese Serverkomponente simuliert das Laden von Daten von einem „Fake REST-Server“ mit Hilfe von [my-json-server.typicode.com](https://my-json-server.typicode.com). Die Daten dazu liegen in der Datei [db.json](db.json).
 
 ## Projekt direkt in Stackblitz öffnen
 
@@ -17,7 +17,7 @@ Serverseitiges Data-Fetching ist in der [Komponente „Courses“](app/component
 
 Dieses GitHub-Repository klonen oder herunterladen.
 
-[NodeJS](https://nodejs.org) muss installiert sein.
+[Node.js](https://nodejs.org) muss installiert sein.
 
 Im Projektverzeichnis die Abhängigkeiten mit `npm` installieren:
 
