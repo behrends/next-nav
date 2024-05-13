@@ -6,6 +6,9 @@ export default async function Courses() {
     'https://my-json-server.typicode.com/behrends/next-nav/courses'
   );
 
+  // wait 2 seconds to simulate a slow connection
+  await new Promise((resolve) => setTimeout(resolve, 2000));
+
   const courses = await data.json();
   return (
     <div className="py-2">
